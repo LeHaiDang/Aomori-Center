@@ -432,6 +432,7 @@ a.menu__link {
     text-align: center;
 }
 .about{
+	height: auto;
     background: rgba(238, 238, 238, 0.88);
 	background-size: cover;
 	padding: 4% 7% 40% 7%;
@@ -461,6 +462,10 @@ a.menu__link {
     font-size: 16px;
     padding: 16px;
     line-height: 30px;
+}
+
+#about .clearfix {
+	background: rgba(238, 238, 238, 0.88);
 }
 
 /*-- welcome--*/
